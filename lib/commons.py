@@ -1,3 +1,5 @@
+import math
+
 def compute_hcf(x, y):
     if x > y:
         smaller = y
@@ -66,3 +68,9 @@ def convertToBinary(n):
 
 def name():
     return "Arthur","Ethan","Peter"
+
+def cosine_of_angle(degrees):
+    radians = math.radians(degrees)
+    cos_value = math.cos(radians)
+    return cos_value
+
