@@ -1,6 +1,6 @@
 
 
-from lib.commons import add,compute_hcf,compute_lcm,multiply, subtract,divide, print_factors
+from lib.commons import add,compute_hcf,compute_lcm,multiply, subtract,divide, print_factors,recur_fibo, recur_sum
 
 result = add(5,3)
 print("Result:", result)
@@ -16,3 +16,7 @@ print(subtract(100,50))
 print(divide(20,10))
 
 print( print_factors(20),end=" ")
+
+print(recur_fibo(7))
+
+print(recur_sum(10))
